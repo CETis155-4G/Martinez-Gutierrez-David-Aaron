@@ -1,0 +1,86 @@
+body {   
+    background-color: #dee8eb;
+}
+/* efectos para el contenedor de pantalla completa */
+.formulario {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.tabla{
+    font-size: 120%;
+    color:#dfcdc3;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 700px;
+    max-width: 700px;
+    width: 90%;
+    
+    background-color: #b7c0c2;
+    
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.tabla button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    
+    background-color: #eee4df;
+    
+    margin-top: 10px;
+}
+
+
+
+.tabla label {
+    display: grid;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#3c4245;
+    
+    margin-top: 15px;
+}
+
+.tabla input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
