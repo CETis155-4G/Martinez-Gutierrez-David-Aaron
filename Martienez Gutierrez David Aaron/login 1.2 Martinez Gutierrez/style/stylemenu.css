@@ -1,0 +1,97 @@
+body{ 
+    background: rgb(151, 151, 151);
+    font-family: "calibri";
+}
+/*Define el tamaño y de posicion de la imagen*/
+img{
+    width: 120px;
+    height: 80px;
+    float: left;
+    padding: 8px;
+}
+/*Da eslito a el encabezo del menu*/
+header{
+    background: rgb(214, 213, 213);
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+    border-radius: 5px;
+}
+
+/*Definre el tamaño y donde poner la imagen y letras del encabezado*/
+.menu{
+    width: 900px;
+    margin: 0 auto;
+
+}
+/*define en que lado pone un elemento*/
+nav{
+    float: right;
+}
+/*Define los estilos para los vinculos, les da una posicion, tamaño */
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    padding: 25px 0;
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #0a0303;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width: 0%;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.3;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+/*Le da estilo al texto, tamaño, posicion, centra el texto y les da margen  */
+p{
+    margin-top: 100px;
+    display: grid;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #101418;
+    font-weight: bold;
+}
+/*Da tamaño a la caja les da color, redondea el borde */
+.comida{
+    width: 800px;
+    background: rgb(208, 210, 211);
+    display: table;
+    border-radius: 6px;    
+}
+/*Les diseño al hr, color y redondea el borde*/
+hr{
+    border-top: 5px solid #8c8b8b;
+    border-radius: 3px;
+   
+} 
+
+/**/
+div.derecha{
+   width: 800px;
+   display: table;
+   background: rgb(208, 210, 211);
+   border-radius: 6px; 
+   
+   padding: relative;
+   right: 900px
+   
+
+   
+}
+

@@ -1,0 +1,104 @@
+body {  
+    background-color: #4f5152;
+}
+/* efectos para el contenedor de pantalla completa */
+.formulario {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    background-position: center;
+    background-size: cover;
+}
+/*Define color del una caja, una posicion, un margen, y un tamaño minimo y maximo*/
+.tabla{
+    font-size: 120%;
+    color:#dfcdc3;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 500px;
+    max-width: 500px;
+    width: 90%;
+    
+    background-color: #93999b;
+    
+    border-radius: 10px ;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+/*Les da diseño al boton, les da color, tamaño*/
+.tabla button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    
+    background-color: #eee4df;
+    
+    margin-top: 10px;
+}
+
+
+/*Les da color, tamaño, posicion a los cuadro de texto y les da una tipo de reaccion*/
+.tabla label {
+    display: grid;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#3c4245;
+    
+    margin-top: 15px;
+}
+
+.tabla input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+}
+/*Les da color, tamaño, posicion a los cuadro de texto y les da una tipo de reaccion*/
+
+
+.derecha{
+
+    width: 100%;
+    
+}
+/*Le da estilo a una caja en css*/
+.enlace a {
+    margin: 70px 50px;
+    background: #dfcdc3;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #3b3b3b;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
